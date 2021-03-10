@@ -1,0 +1,4 @@
+com\cinte\qa\pruebacompra\utils\Selenium.class
+com\cinte\qa\pruebacompra\tasks\EscogerProductos.class
+com\cinte\qa\pruebacompra\drivers\OwnWebDriver.class
+com\cinte\qa\pruebacompra\pages\ProductosPage.class
