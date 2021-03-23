@@ -21,7 +21,7 @@ public class AgregarProductos implements Task {
 
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(Swipe.vertical(300));
-        actor.attemptsTo(Click.on(ProductosPage.GALAXYA10S));
+        actor.attemptsTo(Click.on(ProductosPage.COMPUTADOR_ASUS));
         actor.attemptsTo(Swipe.vertical(300));
         takeScreenshot();
         actor.attemptsTo(Click.on(ProductosPage.BOTON_AGREGAR_CARRITO));

@@ -6,8 +6,8 @@ public class ProductosPage {
 
     public static final Target MENU_TELEVISORES = Target.the("Televisores")
             .locatedBy("//div[contains(@class,'menu menu-nonfood')]//div[6]//a");
-    public static final Target GALAXYA10S = Target.the("Telefono Celular GalaxyA10S")
-            .locatedBy("//button[contains(@data-productid,'567054')]");
+    public static final Target COMPUTADOR_ASUS = Target.the("COMPUTADOR ASUS")
+            .locatedBy("//button[contains(@data-productid,'566742')]");
     public static final Target POLITICA_COOKIES = Target.the("Aceptar Cookies")
             .locatedBy("//button[contains(@class,'swal2-confirm swal2-styled')]");
     public static final Target BOTON_AGREGAR_CARRITO = Target.the("Boton Agregar al Carrito")
